@@ -5,7 +5,7 @@ export const Container = styled.header`
 
   height: 105px;
   width: 100%;
-
+  
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
@@ -20,6 +20,7 @@ export const Container = styled.header`
 
   > h1 {
       color: ${({ theme }) => theme.COLORS.PINK};
+      margin-left: 123px;
     }
 
   > input {
@@ -42,6 +43,7 @@ export const Profile = styled.div`
     width: 56px;
     height: 56px;
     border-radius: 50%;
+    margin-right: 123px;
   }
 
   > div {

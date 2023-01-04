@@ -1,8 +1,9 @@
-import { Container, Links } from './styles'
+import { Container, Links, Bar } from './styles'
 
 import { Header } from '../../components/Header'
 import { Button } from '../../components/Button'
 import { Section } from '../../components/Section'
+import { Tag } from '../../components/Tag'
 
 export function Home() {
   
@@ -51,10 +52,11 @@ export function Home() {
             <p>
               Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se... 
             </p>
+            <Tag title="Ficção Científica"/>
+            <Tag title="Drama"/>
+            <Tag title="Família"/>
           </li>
-          {/* <svg id='rectangle' width="8" height="98" viewBox="0 0 8 98" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect y="0.822693" width="8" height="96.1971" rx="4" fill="#FF859B"/>
-          </svg> */}
+          <Bar />
 
           <li>
             <h2>Interstellar</h2>
@@ -95,6 +97,9 @@ export function Home() {
             <p>
               Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se... 
             </p>
+            <Tag title="Ficção Científica"/>
+            <Tag title="Drama"/>
+            <Tag title="Família"/>
           </li>
 
           <li>
@@ -136,6 +141,9 @@ export function Home() {
             <p>
               Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se... 
             </p>
+            <Tag title="Ficção Científica"/>
+            <Tag title="Drama"/>
+            <Tag title="Família"/>
           </li>
 
           
