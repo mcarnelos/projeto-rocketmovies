@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
-  width: 100%;
+  grid-area: button;
+
+  width: 207px;
+  height: 48px;
   background-color: ${({ theme }) => theme.COLORS.PINK};
   color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
 
