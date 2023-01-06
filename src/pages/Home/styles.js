@@ -51,7 +51,7 @@ export const Links = styled.ul`
 
 `
 
-export const Bar = styled.div`
+export const SideBar = styled.div`
   position: absolute;
   width: 8px;
   height: 96.2px;

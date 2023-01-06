@@ -1,4 +1,4 @@
-import { Container, Links, Bar } from './styles'
+import { Container, Links, SideBar } from './styles'
 
 import { Header } from '../../components/Header'
 import { Button } from '../../components/Button'
@@ -56,7 +56,7 @@ export function Home() {
             <Tag title="Drama"/>
             <Tag title="Família"/>
           </li>
-          <Bar />
+          <SideBar />
 
           <li>
             <h2>Interstellar</h2>
