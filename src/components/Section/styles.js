@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
+  grid-area: section;
   margin: 0 auto;
   margin-top: 47px;
   h2 {

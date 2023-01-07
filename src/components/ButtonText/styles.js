@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
+  grid-area: buttonText;
   display: flex;
   gap: 8px;
 
