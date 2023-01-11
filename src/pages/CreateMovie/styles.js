@@ -23,6 +23,22 @@ export const Content = styled.div`
     color: ${({ theme }) => theme.COLORS.WHITE_100};
   }
 
+  h3 {
+    font-size: 20px;
+
+    color: ${({ theme }) => theme.COLORS.WHITE_300};
+
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+
+  .inputs {
+    display: flex;
+    gap: 40px;
+
+    margin-block: 40px;
+  }
+
   .tags {
     display: flex;
     align-items: center;
@@ -40,6 +56,15 @@ export const Content = styled.div`
     padding: 16px;
   }
 
+  #tagMarker {
+    padding: 16px;
+    border-width: 2px; 
+    border-style: dashed;
+    border-color: ${({ theme }) => theme.COLORS.GREY_200};
+
+    background: none;
+  }
+
   #btn-delete {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
     color: ${({ theme }) => theme.COLORS.PINK};
@@ -47,8 +72,17 @@ export const Content = styled.div`
     margin-right: 40px;
   }
 
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 40px;
+    margin-bottom: 93px;
+  }
+
   Button {
-    width: 536.5px;
+    width: 700px;
   }
 `
 

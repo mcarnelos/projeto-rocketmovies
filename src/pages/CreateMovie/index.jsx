@@ -1,4 +1,4 @@
-import { FiArrowLeft, FiX} from 'react-icons/fi'
+import { FiArrowLeft, FiX, FiPlus } from 'react-icons/fi'
 import { Container, SideBar, Content } from './styles'
 
 import { Header } from '../../components/Header'
@@ -19,26 +19,29 @@ export function CreateMovie() {
         <ButtonText title="Voltar" icon={FiArrowLeft}/>
             
             <h2 id='title'>Novo filme</h2>
-            <Input 
-              placeholder='Título'
-              type="text"
-            />          
-            <Input 
-              placeholder='Sua nota (de 0 a 5)'
-              type="text"
-            />          
+            <div className='inputs'>
+              <Input 
+                placeholder='Título'
+                type="text"
+              />          
+              <Input 
+                placeholder='Sua nota (de 0 a 5)'
+                type="text"
+              />          
+            </div>
 
             <TextArea placeholder="Observações"/>
 
             <h3>Marcadores</h3>
             <div className='tags'>
               <Tag title="React" icon={FiX} id="tag"/>
-              <Tag title="Novo Marcador" id="tag"/>
+              <Tag title="Novo Marcador" icon={FiPlus} id="tagMarker"/>
             </div>
           
-
-            <Button id="btn-delete" title="Excluir filme"/>
-            <Button title="Salvar alterações"/>
+            <div className='buttons'>
+              <Button id="btn-delete" title="Excluir filme"/>
+              <Button title="Salvar alterações"/>
+            </div>
             
           <SideBar />
           

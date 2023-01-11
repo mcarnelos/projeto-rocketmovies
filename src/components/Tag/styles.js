@@ -1,6 +1,13 @@
 import styled from 'styled-components'
 
 export const Container = styled.span`
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-family: 'Roboto';
+  font-size: 16px;
+
   width: fit-content;
   font-size: 12px;
   padding: 5px 16px;
