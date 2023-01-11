@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   grid-area: input;
-  width: 50%;
+  width: 100%;
   display: flex;
   
   align-items: center;
@@ -12,6 +12,8 @@ export const Container = styled.div`
 
   margin-bottom: 8px;
   border-radius: 10px;
+
+  padding-left: 12px;
 
   > input {
     height: 55px;
