@@ -58,6 +58,10 @@ export const Content = styled.div`
 
     margin-right: 8px;
   }
+
+  .tags {
+    display: flex;
+  }
 `
 
 export const SideBar = styled.div`

@@ -10,6 +10,10 @@ export const Container = styled.div`
   "header"
   "content"
   ;
+
+  #button {
+    width: 207px;
+  }
  
 `
 
@@ -46,6 +50,10 @@ export const Links = styled.ul`
     p {
       color: ${({ theme }) => theme.COLORS.GREY_300};
       margin-bottom: 20px;
+    }
+
+    .tags {
+      display: flex;
     }
   }
 
