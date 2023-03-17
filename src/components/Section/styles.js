@@ -3,14 +3,15 @@ import styled from 'styled-components'
 export const Container = styled.section`
   
   margin: 0 auto;
-  margin-top: 47px;
+  margin-top: 40px;
+
   h2 {
     display: inline;
 
-    color: ${({ theme }) => theme.COLORS.WHITE};
-    font-size: 32px;
+    color: ${({ theme }) => theme.COLORS.GREY_300};
+    font-size: 36px;
 
-    margin-right: 885px;
-    margin-left: 105px;
+    margin-right: 855px;
+    margin-left: 115px;
   }
 `

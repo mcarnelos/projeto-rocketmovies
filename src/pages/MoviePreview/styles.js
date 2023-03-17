@@ -52,6 +52,12 @@ export const Content = styled.div`
     margin-left: 19px;
   }
 
+  #button {
+    position: absolute;
+    margin-left: 1200px;
+    width: 207px;
+  }
+
   img {
     border-radius: 35px;
     width: 16px;

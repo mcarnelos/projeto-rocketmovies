@@ -21,6 +21,7 @@ export const Content = styled.div`
     display: inline;
     font-size: 36px;
     color: ${({ theme }) => theme.COLORS.WHITE_100};
+    margin-left: 0;
   }
 
   h3 {
@@ -42,9 +43,11 @@ export const Content = styled.div`
   .tags {
     display: flex;
     align-items: center;
+    gap: 8px;
     width: 100%;
     height: 88px;
 
+    margin-top: 24px;
     padding: 16px;
 
     border-radius: 8px;
@@ -52,20 +55,7 @@ export const Content = styled.div`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
   }
 
-  #tag {
-    padding: 16px;
-  }
-
-  #tagMarker {
-    padding: 16px;
-    border-width: 2px; 
-    border-style: dashed;
-    border-color: ${({ theme }) => theme.COLORS.GREY_200};
-
-    background: none;
-  }
-
-  #btn-delete {
+  #btn-delete-movie {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
     color: ${({ theme }) => theme.COLORS.PINK};
 
@@ -79,10 +69,6 @@ export const Content = styled.div`
 
     margin-top: 40px;
     margin-bottom: 93px;
-  }
-
-  Button {
-    width: 700px;
   }
 `
 

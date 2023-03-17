@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from 'react-router-dom'
 
 export const Container = styled.header`
   grid-area: header;
@@ -30,11 +31,12 @@ export const Container = styled.header`
     border-radius: 10px;
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+    color: ${({ theme }) => theme.COLORS.WHITE_100};
     border: none;
   }  
 `
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
   display: flex;
   align-items: center;
   gap: 9px;
@@ -46,13 +48,17 @@ export const Profile = styled.div`
     margin-right: 123px;
   }
 
-  > div {
+`
+
+export const User = styled.div`
+
     display: flex;
     flex-direction: column;
     margin-left: 16px;
+    margin-right: -100px;
     line-height: 24px;
 
-    button {
+    a {
       color: ${({ theme }) => theme.COLORS.GREY_200};
       justify-content: end;
       background-color: transparent;
@@ -64,6 +70,5 @@ export const Profile = styled.div`
       font-size: 18px;
       color: ${({ theme }) => theme.COLORS.WHITE_100};
     }
-  }
-
+  
 `
