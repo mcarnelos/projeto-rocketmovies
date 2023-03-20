@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-O projeto RocketMovies foi criado como um desafio durante Stage 9 do programa Explorer da Rocketseat, onde foi desenvolvido um site para inclusão e avaliação de filmes, com as seguintes páginas: SignIn, SignUp, Home, Create Movie, Movie Preview e Profile. colocando em prática os principais recursos de uma aplicação React, como: Fragment, CSS-in-Js, Componentes, Rotas, etc.
+O projeto RocketMovies foi criado como um desafio durante do programa Explorer da Rocketseat, onde foi desenvolvido um site para inclusão e avaliação de filmes, com a opção de criar e excluir as avaliações dos seus filmes favoritos, foi criado também a API para integração com o Front-end para consumo dos dados do Back-end, onde foram colocados em prática os principais recursos de uma aplicação React, como: Fragment, CSS-in-Js, Styled-Componentes, Rotas, consumo de APIs, etc.
 
 ## Layout web
 Veja abaixo as telas do projeto
