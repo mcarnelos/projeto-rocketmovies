@@ -2,5 +2,5 @@
 import axios from "axios"
 
 export const api = axios.create({
-  baseURL: 'http://localhost:3333' //endereço do back-end
+  baseURL: 'https://api-rocketmovies-i06n.onrender.com' //endereço do back-end
 })
