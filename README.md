@@ -5,6 +5,9 @@
 
 O projeto RocketMovies foi criado como um desafio durante do programa Explorer da Rocketseat, onde foi desenvolvido um site para inclusão e avaliação de filmes, com a opção de criar e excluir as avaliações dos seus filmes favoritos, foi criado também a API para integração com o Front-end para consumo dos dados do Back-end, onde foram colocados em prática os principais recursos de uma aplicação React, como: Fragment, CSS-in-Js, Styled-Componentes, Rotas, consumo de APIs, etc.
 
+# Link do projeto
+https://siterocketmovies.netlify.app/
+
 ## Layout web
 Veja abaixo as telas do projeto
 
