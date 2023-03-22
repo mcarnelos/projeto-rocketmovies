@@ -11,22 +11,34 @@ export const Container = styled.div`
   "content"
   ;
 
+  .head {
+    display: flex;
+    align-items: center;
+    gap: 610px;
+
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+
   #button {
     width: 207px;
     margin-bottom: 37.62px;
+    margin-left: 170px;
   }
  
-  h2 {
-    margin-left: 100px;
+  #title {
+    margin-left: 90px;
+    font-size: 32px;
   }
 
 `
 
 export const Links = styled.ul`
   list-style: none;
-  width: 1260px;
-  margin-left: 100px;
-  margin-right: 106px;
+  width: 1160px;
+  margin-left: 80px;
+  margin-right: 90px;
+  margin-top: -130px;
 
   display: flex;
   flex-direction: column;
@@ -40,8 +52,8 @@ export const SideBar = styled.div`
   height: 96.2px;
   right: 0px;
   top: 0px;
-  margin-top: 260px;
-  margin-right: 200px;
+  margin-top: 270px;
+  margin-right: 80px;
 
   background: #FF859B;
   border-radius: 8px;

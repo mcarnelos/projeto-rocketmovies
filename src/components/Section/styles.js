@@ -11,7 +11,7 @@ export const Container = styled.section`
     color: ${({ theme }) => theme.COLORS.GREY_300};
     font-size: 36px;
 
-    margin-right: 855px;
+    margin-right: 610px;
     margin-left: 115px;
   }
 `

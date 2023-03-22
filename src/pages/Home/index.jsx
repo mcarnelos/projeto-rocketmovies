@@ -45,12 +45,18 @@ export function Home() {
     <Container>
       <Header onChange={(e) => setSearch(e.target.value)} />
 
-      <Section title="Meus filmes">
+    <div className='head'>
+      <h2 id='title'>Meus filmes</h2>
+
       <Button
-        id='button' 
-        title="+ Adicionar filme"
-        onClick={handleCreateMovie} 
+         id='button' 
+         title="+ Adicionar filme"
+         onClick={handleCreateMovie} 
       />
+    </div>
+
+      <Section>
+        
         <Links>{/* children */}
 
           {

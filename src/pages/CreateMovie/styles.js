@@ -14,14 +14,20 @@ export const Container = styled.div`
 
 export const Content = styled.div`
   
-  width: 1260px;
-  margin: 40px 130px 0 200px;
-  
-  h2 {
-    display: inline;
-    font-size: 36px;
-    color: ${({ theme }) => theme.COLORS.WHITE_100};
-    margin-left: 0;
+  width: 84%;
+  margin-top: 40px;
+  margin-left: 110px;
+
+  #title {
+    font-size: 32px;
+  }
+
+  #tags {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 16px;
+    color: ${({ theme }) => theme.COLORS.GREY_300};
   }
 
   h3 {
@@ -79,7 +85,7 @@ export const SideBar = styled.div`
   right: 0px;
   top: 0px;
   margin-top: 200px;
-  margin-right: 195px;
+  margin-right: 90px;
 
   background: #FF859B;
   border-radius: 8px;

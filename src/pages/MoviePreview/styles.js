@@ -15,8 +15,9 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: inline;
   
-  width: 1260px;
-  margin: 40px 130px 0 200px;
+  width: 1160px;
+  margin-top: 40px;
+  margin-left: 100px;
   
   h2 {
     display: inline;
@@ -54,7 +55,7 @@ export const Content = styled.div`
 
   #button {
     position: absolute;
-    margin-left: 1200px;
+    margin-left: 1070px;
     width: 207px;
   }
 
@@ -77,7 +78,7 @@ export const SideBar = styled.div`
   right: 0px;
   top: 0px;
   margin-top: 200px;
-  margin-right: 195px;
+  margin-right: 70px;
 
   background: #FF859B;
   border-radius: 8px;

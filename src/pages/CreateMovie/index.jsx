@@ -93,7 +93,8 @@ export function CreateMovie() {
               onChange={e => setDescription(e.target.value)}
             />
 
-          <Section title="Marcadores">
+          <Section>
+            <h2 id='tags'>Marcadores</h2>
             <div className='tags'>
               {
                 tags.map((tag, index) => (

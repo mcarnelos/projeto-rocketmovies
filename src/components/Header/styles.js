@@ -21,10 +21,12 @@ export const Container = styled.header`
 
   > h1 {
       color: ${({ theme }) => theme.COLORS.PINK};
-      margin-left: 123px;
+      margin-left: 23px;
+      font-size: 24px;
     }
 
   > input {
+    font-size: 14px;
     width: 630px;
     height: 56px;
     padding: 19px 24px;
@@ -40,12 +42,12 @@ export const Profile = styled(Link)`
   display: flex;
   align-items: center;
   gap: 9px;
-
+  
   > img {
-    width: 56px;
-    height: 56px;
+    width: 64px;
+    height: 64px;
     border-radius: 50%;
-    margin-right: 123px;
+    
   }
 
 `
@@ -55,7 +57,7 @@ export const User = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 16px;
-    margin-right: -100px;
+    margin-right: -70px;
     line-height: 24px;
 
     a {
@@ -64,10 +66,11 @@ export const User = styled.div`
       background-color: transparent;
       border: none;
       text-align: end;
+      font-size: 14px;
     }
 
     strong {
-      font-size: 18px;
+      font-size: 14px;
       color: ${({ theme }) => theme.COLORS.WHITE_100};
     }
   
